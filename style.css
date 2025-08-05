@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  /*max-width: 400px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: #fff;
+  background-color: #fff;*/
+}
+
+.image-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+  /*clip-path: path("M30, 0 A100 V50 Q90, 100 50, 100 Q10, 100 0, 50 Z");*/
+}
+
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-section {
+  padding: 23px;
+
+}
+
+.text-section h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  /*margin-right: 5px;*/
+}
+
+.text-section h1 span {
+  /*color: #fa7d38;*/
+}
+
+.text-section p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+a {
+  flex: 1;
+  padding: 10px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+}
+
+.register {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.login {
+  background-color: #fa7d38;
+  color: white;
+}
+
+.login:hover {
+  background-color: #e76924;
+}
+
+.register:hover {
+  background-color: #ccc;
+}
+
+@media (max-width: 500px) {
+.image-section img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+}
