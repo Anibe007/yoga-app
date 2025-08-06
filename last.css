@@ -172,6 +172,7 @@ body {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+    object-position: center;
   }
 
   .control-btn,
@@ -185,3 +186,4 @@ body {
     font-size: 0.7rem;
   }
 }
+
