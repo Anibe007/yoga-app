@@ -68,7 +68,7 @@ body {
 
 .main-image img {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   object-fit: cover;
 }
 
@@ -170,8 +170,8 @@ body {
   }
 
   .main-image img {
-    width: 100dvw;
-    height: 100dvh;
+    width: 100vw;
+    height: 100vh;
     object-fit: cover;
     object-position: center;
   }
@@ -187,7 +187,3 @@ body {
     font-size: 0.7rem;
   }
 }
-
-
-
-
