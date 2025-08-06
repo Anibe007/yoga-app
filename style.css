@@ -102,8 +102,9 @@ a {
 @media (max-width: 500px) {
 .image-section img {
   width: 100vw;
-  height: 60vh;
+  height: 55vh;
   object-fit: cover;
   object-position: bottom;
 }
 }
+
