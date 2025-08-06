@@ -222,7 +222,6 @@ body {
 
     .type-card {
       flex: 1 1 48%;
-      padding: 12px 0;
       font-size: 14px;
     }
 
@@ -249,3 +248,4 @@ body {
     margin-top: 25px;
   }
   }
+
