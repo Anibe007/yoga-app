@@ -130,7 +130,7 @@ body {
   .section-title {
     font-weight: 700;
     font-size: 1.15em;
-    margin-top: 4px;
+    margin-top: 30px;
     margin-left: 10px;
   }
 
@@ -186,6 +186,35 @@ body {
     color: #3e634d;
     margin-top: auto;
   }
+
+  .last-div {
+    border-radius: 14px 14px 0 0;
+    /*padding: 14px 18px;*/
+    margin-top: 10px;
+    display: flex;
+    column-gap: 10px;
+  }
+
+  .half-exercise img {
+    width: 40vw;
+    height: auto;
+    border-radius: 14px 0 0 0;
+  }
+
+  .bighalf-exercise {
+    width: 60vw;
+    height: auto;
+    border-radius: 0 14px 0 0;
+    background: #4f7c63;
+    color: #fff;
+    font-size: 1.7em;
+    font-weight: 600;
+  }
+
+  .bighalf-exercise p {
+    margin-left: 23px;
+  }
+
 
   /* Responsive */
   @media (max-width:400px) {.container {
