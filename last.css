@@ -166,6 +166,7 @@ body {
 
   .player {
     padding: 15px;
+    bottom: 30px;
   }
 
   .main-image img {
@@ -186,6 +187,7 @@ body {
     font-size: 0.7rem;
   }
 }
+
 
 
 
