@@ -15,11 +15,9 @@ body {
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 6px 32px #0001;
-    /*padding: 24px 20px 30px 20px;*/
     margin: auto;
     display: flex;
     flex-direction: column;
-    /*gap: 20px;*/
   }
 
 .container {
@@ -32,7 +30,6 @@ body {
 .header {
   position: absolute;
   top: 20px;
-  /*left: 20px;*/
   padding: 0 20px;
   z-index: 2;
   width: 100%;
@@ -86,7 +83,16 @@ body {
   width: 90%;
   max-width: 400px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-  /*text-align: center;*/
+}
+
+.Playing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-file {
+  color: orange;
+  font-size: 1.5em;
 }
 
 .title {
