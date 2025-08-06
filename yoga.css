@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    /*padding: 20px;*/
     font-family: 'Nunito', sans-serif;
     background: #f7f8fa;
     color: #384856;
@@ -10,15 +9,11 @@ body {
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 6px 32px #0001;
-    /*padding: 24px 20px 30px 20px;*/
     margin: auto;
     gap: 20px;
   }
 
   .header {
-    /*display: flex;
-    justify-content: space-between;
-    align-items: flex-start;*/
     background: #4f7c63;
     padding: 20px 20px;
     border-radius: 0 0 10px 10px;
@@ -34,6 +29,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    align-items: center;
   }
 
   .welcome-text.small {
@@ -58,15 +54,12 @@ body {
     margin-top: 10px;
   }
 
-  .notification-dot img {
-    width: 49px;
-    height: 50px;
-    /*background: #f2f3fc;
-    border-radius: 50%;*/
+  .notification-dot .fa-bell {
+    font-size: 2rem;
+    color: #fff;
   }
 
   .continue-exercise {
-    /*background: #4f7c63;*/
     background: #ABD1B5;
     color: #000;
     border-radius: 15px;
@@ -80,7 +73,6 @@ body {
   }
 
   .exercise-card {
-    /*background: #3f6955;*/
     border-radius: 13px;
     margin-top: 12px;
     display: flex;
@@ -113,7 +105,6 @@ body {
   .exercise-info p {
     margin: 4px 0 0 0;
     font-size: 0.9em;
-    /*color: #c6d5ca;*/
   }
 
   .play-btn {
@@ -183,14 +174,12 @@ body {
 
   .last-div {
     border-radius: 14px 14px 0 0;
-    /*padding: 14px 18px;*/
     margin-top: 10px;
     display: flex;
-    column-gap: 10px;
   }
 
   .half-exercise img {
-    width: 40vw;
+    width: 43vw;
     height: auto;
     border-radius: 14px 0 0 0;
   }
@@ -211,9 +200,9 @@ body {
 
 
   /* Responsive */
-  @media (max-width:400px) {.container {
+  @media (max-width:400px) {
+    .container {
       max-width: 100%;
-      /*padding: 20px 16px;*/
     }
 
     .types-row {
@@ -247,5 +236,8 @@ body {
     margin-left: 11px;
     margin-top: 25px;
   }
-  }
 
+  .notification-dot .fa-bell {
+    font-size: 1.3em;
+  }
+  }
